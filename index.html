@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link rel="icon" href="./images/ico.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="tittle">
+            <h1>Formulário de Pesquisa</h1>
+            <h3>Desenvolvedor Web</h3>
+        </div>
+        <form action="" class="form">
+            <div class="data">
+                <div class="name">
+                    <label for="name">Nome: </label>
+                    <input type="text" name="name" id="name" required placeholder="Nome">
+                    <label for="last_name">Sobrenome (opcional): </label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Sobrenome">
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                </div>
+                <div class="age">
+                    <label for="idade">Idade: </label>
+                    <input type="number" placeholder="Idade" required>
+                </div>
+            </div>
+            <div class="education_level">
+                <label>Nivel de escolaridade</label>
+                <select name="education_level" id="education_level" required>
+                    <option value="" selected disabled>Selecione seu nivel de escolaridade</option>
+                    <option value="incomplete_pe">Ensino fundamental incompleto</option>
+                    <option value="complete_pe">Ensino fundamental completo</option>
+                    <option value="incomplete_hs">Ensino médio incompleto</option>
+                    <option value="complete_hs">Ensino médio completo</option>
+                    <option value="incomplete_ue">Ensino superior incompleto</option>
+                    <option value="complete_ue">Ensino superior completo</option>
+                </select>
+            </div>
+            <div class="occupation_area">
+                <label for="">Aréa de ocupação</label>
+                <input type="radio" name="area" value="front">Front-end <br>
+                <input type="radio" name="area" value="back">Back-end <br>
+                <input type="radio" name="area" value="full">Full-stack <br>
+            </div>
+            <div class="technics">
+                <label for="">Linguagens e Frameworks que conhece</label>
+                <input type="checkbox" name="lang" value="c">C <br>
+                <input type="checkbox" name="lang" value="cmore">C++ <br>
+                <input type="checkbox" name="lang" value="csharp">C# <br>
+                <input type="checkbox" name="lang" value="java">Java <br>
+                <input type="checkbox" name="lang" value="python">Python <br>
+                <input type="checkbox" name="lang" value="js">JavaScript <br>
+                <input type="checkbox" name="lang" value="react">React <br>
+                <input type="checkbox" name="lang" value="angular">Angular <br>
+            </div>
+            <div class="comment">
+                <label for="comment">Algum comentário ou sugestão? </label>
+                <textarea name="comment" id="comment" cols="30" rows="6"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+
+</html>
