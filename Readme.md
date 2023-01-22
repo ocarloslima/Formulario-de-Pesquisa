@@ -1,5 +1,4 @@
-## Hello, Dev!
+## Olá, Dev!
+Formulário de pesquisa simples com HTML e CSS
 
-Simple survey form with HTML and CSS
-
-That's it! :smile:
+É isso! :smile:
